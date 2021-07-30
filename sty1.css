@@ -1,0 +1,13 @@
+*{
+    margin: 20;
+    padding:20;
+    font-family: cursive;
+    
+}
+
+.submit-btn{
+    margin-left:auto;
+    margin-right:auto;
+    background:linear-gradient(to right,#ed105f,#ffad02);
+    font-size:20px;
+}

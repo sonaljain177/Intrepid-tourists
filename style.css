@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.form{
+    width: 380px;
+    height: 470px;
+    border-radius:10px;
+    position: relative;
+    margin: 6% auto;
+    background:rgba(125,125,125,0.3);
+    background: absolute;
+    -webkit-backdrop-filter:blur(20px);
+    backdrop-filter:blur(20px);
+    padding: 5px;
+    overflow:hidden;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #fe61241e;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#fd105f,#ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-grp{
+    top: 200px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px;
+    outline:none;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ed105f,#fdad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+#rb{
+    bottom:16px;
+    left:20px;
+    position:absolute;
+}
+
+#login{
+    left: 50px;
+}
+
+#register{
+    left:450px;
+}
+
+#lab{
+    left:90px;
+    top:-50px;
+    position:relative;
+}
+
+#lab1{
+    left:70px;
+    top: -50px;
+    position:relative;
+}
+
+#lab2{
+    left:90px;
+    position:relative;
+}
+
+#inp1{
+    top: -70px;
+    left:27px;
+    position:relative;
+}
+
+#inp2{
+    top:-50px;
+    left:5px;
+    position:relative;
+}
+
+#sp{
+    top:-50px;
+    position:relative;
+}
+
